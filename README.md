@@ -10,3 +10,5 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 
 * [SPECIFICATION.md](SPECIFICATION.md)
 * [ARCHITECTURE.md](ARCHITECTURE.md)
+* [.md](.md)
+* [.md](.md)
