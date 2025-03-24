@@ -1,8 +1,0 @@
-| **Task ID** | **Task Description**                | **Assigned To** | **Estimated Hours** | **Status**   |
-|-------------|-------------------------------------|-----------------|---------------------|--------------|
-| **T-001**   | Develop book search API endpoint    | Dev Team        | 8                   | To Do        |
-| **T-002**   | Design UI for book search page      | Dev Team        | 6                   | To Do        |
-| **T-003**   | Implement borrowing feature logic   | Dev Team        | 10                  | To Do        |
-| **T-004**   | Setup email notifications for borrowing | Dev Team    | 4                   | To Do        |
-| **T-005**   | Develop report generation script    | Dev Team        | 5                   | To Do        |
-| **T-006**   | Design UI for report page           | Dev Team        | 6                   | To Do        |
