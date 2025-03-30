@@ -7,17 +7,17 @@
 | **Team Planning** | Icebox, Backlog, In Progress, Review, Done | Helps manage long-term planning | Better for high-level product roadmaps |
 
 
-## 1.2 Justification for Choosing Automated Kanban 
-The **Automated Kanban** template is the best fit for our Agile project because:  
+## 1.2 Justification for Choosing Basic Kanban 
+The **Basic Kanban** template is the best fit for my Agile project because:  
 
-1. **Automation Enhances Workflow Efficiency**  
-   - Tasks automatically move between columns based on their status, reducing manual effort.  
-   - This supports Agile’s principle of continuous progress tracking.  
+1. **Flexible Task Management**  
+   - Provides a simple workflow (*To Do, In Progress, Done*) that can be customized.  
+   - Allows tracking of user stories and sprint tasks efficiently.  
 
-2. **Sprint-Friendly Structure**  
-   - The default columns (*To Do, In Progress, Review, Done*) align well with Agile sprints.  
-   - The *Review* stage ensures quality control before completing tasks.  
+2. **Supports Agile Workflows**  
+   - Aligns with Agile principles by visualizing work in progress.  
+   - Can be customized by adding columns like *Review* or *Blocked* to fit sprint needs.  
 
-3. **Better Visibility and Task Management**  
-   - Provides real-time insights into task progress.  
-   - Helps prevent bottlenecks by showing work distribution across stages.  
+3. **Easy Adaptability**  
+   - Since the *Automated Kanban* template is not available in GitHub Beta, this is the closest alternative.  
+   - It allows manual control over task movement while still enabling Agile tracking.  
