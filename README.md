@@ -18,5 +18,5 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 * [System-requirements.md](System-requirements.md)
 * [Activity_diagrams](Activity_diagrams)
 * [Activity_diagrams.md](Activity_diagrams.md)
-* [State Transition Diagrams]([State_Transition_Diagrams](https://github.com/amdiffirent/Online-Bookstore/tree/main/State%20Transition%20Diagrams))
+* [State_transition_diagrams](State_transition_diagrams)
 * [State_Transition_Diagrams.md](State_Transition_Diagrams.md)
