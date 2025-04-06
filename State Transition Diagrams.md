@@ -1,4 +1,4 @@
-# 1. Book Object Lifecycle
+# 1. Book Object Lifecycle (book_state)
 
 ## States:
 - **Available**: Can be purchased
@@ -15,7 +15,7 @@
 - Items can't be reserved if already in another cart
 - Purchased items are archived after 90 days
 
-# 2. User Account States
+# 2. User Account States (user_state)
 
 ## State Logic:
 - **Unverified**: Can browse but not purchase
@@ -32,7 +32,7 @@
 - FR-101: User authentication
 - FR-205: Account security
 
-# 3. Order Fulfillment Workflow
+# 3. Order Fulfillment Workflow (order_activity)
 
 ## Key Steps:
 1. Payment validation (3rd party API)
@@ -50,7 +50,7 @@
 - **Payment Gateway**: Validates transaction
 - **Warehouse**: Handles physical fulfillment
 
-# 4. Shopping Cart Lifecycle
+# 4. Shopping Cart Lifecycle (cart_state)
 
 ## State Logic:
 - **Empty**: No products added
@@ -65,7 +65,7 @@
 - FR-301: Cart persistence
 - US-045: Save cart between sessions
 
-# 5. Review Submission Process
+# 5. Review Submission Process (review_activity)
 
 ## Workflow Rules:
 - Only verified purchasers can review
@@ -80,7 +80,7 @@
 - Customers want genuine reviews
 - Sellers need fraud prevention
 
-# 6. Payment Object States
+# 6. Payment Object States (payment_state)
 
 ## Lifecycle:
 - **Pending**: Authorization requested
@@ -98,7 +98,7 @@
 - No direct state jumps (e.g., Pending→Refunded)
 
 
-# 7. Inventory Restocking Workflow
+# 7. Inventory Restocking Workflow (inventory_activity)
 
 ## Key Stages:
 1. Automatic trigger at 10% stock threshold
@@ -116,7 +116,7 @@
   - Warehouse management
   - Financial system
 
-# 8. Product Return Workflow
+# 8. Product Return Workflow (return_activity)
 
 ## Policy Enforcement:
 - Strict 30-day window
