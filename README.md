@@ -16,7 +16,7 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 * [Use Case Diagram.md](Use-Case-Diagram.md)
 * [Use Case Specifications.md](Use-Case-Specifications.md)
 * [System-requirements.md](System-requirements.md)
-* [Activity Diagrams](Activity_Diagrams)
+* [Activity Diagrams](ActivityDiagrams)
 * [Activity_diagrams.md](Activity_diagrams.md)
 * [State Transition Diagrams]([State_Transition_Diagrams](https://github.com/amdiffirent/Online-Bookstore/tree/main/State%20Transition%20Diagrams))
 * [State_Transition_Diagrams.md](State_Transition_Diagrams.md)
