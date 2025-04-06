@@ -16,3 +16,7 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 * [Use Case Diagram.md](Use-Case-Diagram.md)
 * [Use Case Specifications.md](Use-Case-Specifications.md)
 * [System-requirements.md](System-requirements.md)
+* [Activity diagrams](Activity_diagrams)
+* [Activity diagrams.md](Activity_diagrams.md)
+* [State ](Test-Cases.md)
+* [Test Cases.md](Test-Cases.md)
