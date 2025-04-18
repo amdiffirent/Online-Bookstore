@@ -1,7 +1,5 @@
 # Creational Pattern Implementations – Online Bookstore
 
-This folder contains implementations of all six creational design patterns tailored to the Online Bookstore project.
-
 ---
 
 ## ✅ Simple Factory
