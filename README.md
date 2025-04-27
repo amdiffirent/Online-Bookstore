@@ -20,3 +20,12 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 * [Activity_diagrams.md](Activity_diagrams.md)
 * [State_transition_diagrams](State_transition_diagrams)
 * [State_Transition_Diagrams.md](State_Transition_Diagrams.md)
+
+## Repository Layer Implementation
+
+- Used generics in `Repository[T, ID]` to avoid duplication across entity repositories
+- Implemented in-memory storage using Python dictionaries
+- Used Factory pattern to abstract repository creation
+- Future storage implementations can be added by:
+  1. Creating new repository implementations
+  2. Extending the RepositoryFactory
