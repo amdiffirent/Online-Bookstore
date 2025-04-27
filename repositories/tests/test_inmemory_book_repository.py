@@ -1,7 +1,6 @@
 import unittest
 from repositories.inmemory.inmemory_book_repository import InMemoryBookRepository
 from Assignment_10.creational_patterns.abstract_factory import Book
-
 class TestInMemoryBookRepository(unittest.TestCase):
     def setUp(self):
         self.repo = InMemoryBookRepository()

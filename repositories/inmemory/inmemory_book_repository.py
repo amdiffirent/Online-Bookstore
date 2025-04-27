@@ -18,3 +18,5 @@ class InMemoryBookRepository(BookRepository):
     def delete(self, id: str) -> None:
         if id in self._storage:
             del self._storage[id]
+
+
