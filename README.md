@@ -29,3 +29,11 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 - Future storage implementations can be added by:
   1. Creating new repository implementations
   2. Extending the RepositoryFactory
+
+  Class Diagram Additions:
+
+[Book] --> [BookRepository]
+[BookRepository] <|-- [InMemoryBookRepository]
+[BookRepository] <|-- [FileSystemBookRepository]
+[RepositoryFactory] --> [InMemoryBookRepository]
+[RepositoryFactory] --> [FileSystemBookRepository]
