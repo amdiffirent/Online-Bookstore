@@ -28,3 +28,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from fastapi import FastAPI
+from api.book_api import router as book_router
+from api.user_api import router as user_router
+from api.order_api import router as order_router
+
+app = FastAPI(
+    title="Online Bookstore API",
+    description="REST API for books, users, and orders",
+    version="1.0.0"
+)
+
+app.include_router(book_router)
+app.include_router(user_router)
+app.include_router(order_router)
