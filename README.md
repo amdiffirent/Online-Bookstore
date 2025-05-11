@@ -94,3 +94,19 @@ online_bookstore/repositories/filesystem/...          29      0   100%
 online_bookstore/repositories/inmemory/...            23      0   100%
 -----------------------------------------------------------------------
 TOTAL                                                  67      0   100%
+
+
+## [Assignment 12] - Service Layer and REST API
+
+### Added
+- BookService, UserService, and OrderService to handle business logic
+- REST API endpoints for `/api/books`, `/api/users`, `/api/orders`
+- Swagger UI auto-generated docs at `/docs`
+- OpenAPI schema export to `/docs/openapi.json`
+
+### Fixed
+- Enforced rule: Users cannot borrow more than 5 books
+- Input validation for book creation
+
+### Known Issues
+- Checkout currently does not check for overdue books 
