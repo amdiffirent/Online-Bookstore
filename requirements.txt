@@ -1,1 +1,6 @@
+fastapi
+uvicorn
+sqlalchemy
+pytest
+
 
