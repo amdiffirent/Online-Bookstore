@@ -104,6 +104,9 @@ TOTAL                                                  67      0   100%
 - Swagger UI auto-generated docs at `/docs`
 - OpenAPI schema export to `/docs/openapi.json`
 
+  # Triggering GitHub Actions test
+
+
 ### Fixed
 - Enforced rule: Users cannot borrow more than 5 books
 - Input validation for book creation
