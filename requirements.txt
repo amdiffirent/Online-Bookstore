@@ -1,1 +1,7 @@
+# For basic Python project
+pytest>=7.0.0
+pytest-cov>=3.0.0
 
+# Add your project dependencies below
+flask>=2.0.0  # Example if using Flask
+requests>=2.26.0
