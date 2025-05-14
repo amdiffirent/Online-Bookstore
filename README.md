@@ -109,4 +109,82 @@ TOTAL                                                  67      0   100%
 - Input validation for book creation
 
 ### Known Issues
-- Checkout currently does not check for overdue books 
+- Checkout currently does not check for overdue books
+
+
+# 📚 Online Bookstore – Assignment 13: CI/CD with GitHub Actions
+
+## 🎯 Objective
+
+This assignment focused on implementing **Continuous Integration (CI)** and **Continuous Deployment (CD)** for the Online Bookstore project using **GitHub Actions**. The goal was to automate the testing process, enforce branch protection, and generate release artifacts when changes are merged into the `main` branch.
+
+---
+
+## 🔒 Branch Protection Rules
+
+I configured **branch protection** rules on the `main` branch to:
+
+- Prevent force pushes and deletions
+- Require all commits to go through Pull Requests (PRs)
+- Require at least one approval before merging
+- Require all status checks (CI tests) to pass before merging
+
+These rules ensure the integrity, stability, and security of the main codebase.
+
+---
+
+## ✅ CI Workflow
+
+I created a CI workflow located at: .github/workflows/ci.yml
+This workflow:
+- Runs automatically on `push` and `pull_request` events
+- Sets up Python
+- Installs dependencies using `setup.py` or `requirements.txt`
+- Runs all unit tests using `pytest`
+- Blocks merging if tests fail
+
+### Example CI Steps:
+``yaml
+- uses: actions/setup-python@v4
+  with:
+    python-version: '3.11'
+
+- name: Install dependencies
+  run: pip install -e . && pip install pytest
+
+- name: Run tests
+  run: pytest 
+
+📦 CD Workflow (Release Artifact)
+As part of CD, I configured the workflow to:
+
+Run only when changes are pushed to the main branch
+
+Build a distributable Python package using setuptools
+
+Upload the package as an artifact using actions/upload-artifact
+
+
+🔁 Pull Request Workflow
+To follow best practices:
+
+All changes are made on a feature branch
+
+A Pull Request is submitted and reviewed
+
+CI must pass and the PR must be approved before merging
+
+Merging generates a release artifact if the base is main
+
+🧠 Reflection
+Through this assignment, I learned how to:
+
+Enforce safe collaboration using GitHub branch protection
+
+Set up CI to automatically run tests
+
+Create CD pipelines that generate deployable artifacts
+
+Use GitHub Actions effectively for automation
+
+
