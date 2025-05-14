@@ -39,3 +39,8 @@ jobs:
       with:
         name: deployment-package
         path: dist/*
+
+    
+    - name: Run tests (optional)
+      continue-on-error: true  # 👈 This lets tests fail without blocking
+      run: pytest || echo "Tests failed but continuing"
