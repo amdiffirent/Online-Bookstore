@@ -22,7 +22,7 @@ The Simple Online Bookstore provides a platform where customers can browse, sear
 * [State_Transition_Diagrams.md](State_Transition_Diagrams.md)
 * 
 
-# 📚 Online Bookstore - Assignment 11: Persistence Repository Layer
+# 📚 Assignment 11: Persistence Repository Layer
 
 ## 🚀 Implementation Overview
 I've implemented a **repository layer** with full **storage abstraction** for the Online Bookstore system, featuring:
@@ -43,7 +43,7 @@ I've implemented a **repository layer** with full **storage abstraction** for th
 # Run all tests with coverage
 pytest --cov=online_bookstore.repositories
 
-# Run a specific test file
+### Run a specific test file
 pytest tests/repositories/inmemory/test_book_repository.py -v
 
 📸 Demo Execution
@@ -82,7 +82,7 @@ classDiagram
     BookRepository <|-- FileSystemBookRepository
     RepositoryFactory --> BookRepository
 
-📊 Test Coverage Report
+## 📊 Test Coverage Report
 
 ----------- coverage: platform win32, python 3.11.9-final-0 -----------
 Name                                               Stmts   Miss  Cover
@@ -96,7 +96,7 @@ online_bookstore/repositories/inmemory/...            23      0   100%
 TOTAL                                                  67      0   100%
 
 
-## [Assignment 12] - Service Layer and REST API
+# Assignment 12 - Service Layer and REST API
 
 ### Added
 - BookService, UserService, and OrderService to handle business logic
@@ -112,7 +112,7 @@ TOTAL                                                  67      0   100%
 - Checkout currently does not check for overdue books
 
 
-# 📚 Online Bookstore – Assignment 13: CI/CD with GitHub Actions
+# 📚 Assignment 13: CI/CD with GitHub Actions
 
 ## 🎯 Objective
 
@@ -155,7 +155,7 @@ This workflow:
 - name: Run tests
   run: pytest 
 
-📦 CD Workflow (Release Artifact)
+## 📦 CD Workflow (Release Artifact)
 As part of CD, I configured the workflow to:
 
 Run only when changes are pushed to the main branch
@@ -165,7 +165,7 @@ Build a distributable Python package using setuptools
 Upload the package as an artifact using actions/upload-artifact
 
 
-🔁 Pull Request Workflow
+## 🔁 Pull Request Workflow
 To follow best practices:
 
 All changes are made on a feature branch
@@ -176,7 +176,7 @@ CI must pass and the PR must be approved before merging
 
 Merging generates a release artifact if the base is main
 
-🧠 Reflection
+## 🧠 Reflection
 Through this assignment, I learned how to:
 
 Enforce safe collaboration using GitHub branch protection
