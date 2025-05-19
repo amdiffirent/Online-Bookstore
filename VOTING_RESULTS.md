@@ -28,3 +28,4 @@
 
 ✅ Total Stars: 20  
 ✅ Total Forks: 11
+✅ PRs received: 0 
